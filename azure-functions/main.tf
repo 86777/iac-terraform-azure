@@ -1,7 +1,6 @@
 resource "azurerm_resource_group" "example" {
   name = "resource_group"
   location = "East Europe"
-  id = "001"
 }
 
 resource "azurerm_storage_account" "example" {
