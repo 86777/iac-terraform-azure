@@ -1,28 +1,20 @@
 resource "azurerm_resource_group" {
-  name = "przyklad"
+  name = "resource_group"
   location = "East Europe"
 }
 
-resource "resource-group" {
-  azurerm_resource_group = 
-  azurerm_storage_account =
-  azurerm_app_service_plan =
-  azurerm_linux_function_app =
-  azurerm_function_app_function =
+resource "azurerm_storage_account" {
+
 }
 
-resource "resource-group" {
-  azurerm_resource_group = 
-  azurerm_storage_account =
-  azurerm_app_service_plan =
-  azurerm_linux_function_app =
-  azurerm_function_app_function =
+resource "azurerm_app_service_plan" {
+
 }
 
-resource "resource-group" {
-  azurerm_resource_group = 
-  azurerm_storage_account =
-  azurerm_app_service_plan =
-  azurerm_linux_function_app =
-  azurerm_function_app_function =
+resource "azurerm_linux_function_app" {
+
+}
+
+resource "azurerm_function_app_function" {
+
 }
