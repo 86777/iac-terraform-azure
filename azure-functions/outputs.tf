@@ -1,5 +1,5 @@
-output "instance_ip_addr" {
-  value = aws_instance.server.private_ip
+output "private_ip" {
+  value = azurerm.server.private_ip
   description = "Przykładowy output."
   sensitive = true
 }
